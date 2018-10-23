@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: linear-gradient(to bottom, blue, red);
+    background-image: linear-gradient(to bottom, lightsteelblue, dodgerblue);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;

@@ -13,6 +13,7 @@ const LogoGroup = styled.div`
   display: flex;
   align-items: center;
   padding: 1rem;
+  margin-left: 14rem;
 `;
 
 const LogoText = styled.h3`
@@ -21,7 +22,9 @@ const LogoText = styled.h3`
 const TopSearch = styled.input`
   margin-left: auto;
 `;
-const TopUserNav = styled.ul``;
+const TopUserNav = styled.ul`
+  margin-right: 14rem;
+`;
 
 export class TopNav extends Component {
   render() {
