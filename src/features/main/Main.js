@@ -11,11 +11,35 @@ const MainContainer = styled.main`
 
 const TabbedButtonGroup = styled.div`
   margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 `;
 
 const TabButton = styled.button`
   background-color: grey;
   padding: 2rem 7%;
+`;
+
+const RecentContainer = styled.div`
+  display: flex;
+  padding: 1rem;
+`;
+const BlogCard = styled.div`
+  background-color: red;
+  width: 100%;
+  height: 10rem;
+  margin-right: 1rem;
+`;
+const PhotoCard = styled.div`
+  background-color: blue;
+  width: 100%;
+  height: 10rem;
+  margin-right: 1rem;
+`;
+const VideoCard = styled.div`
+  background-color: grey;
+  width: 100%;
+  height: 10rem;
 `;
 
 class Main extends Component {
@@ -30,6 +54,11 @@ class Main extends Component {
           <TabButton>Videos</TabButton>
           <TabButton>Contact</TabButton>
         </TabbedButtonGroup>
+        <RecentContainer>
+          <BlogCard />
+          <PhotoCard />
+          <VideoCard />
+        </RecentContainer>
       </MainContainer>
     );
   }
